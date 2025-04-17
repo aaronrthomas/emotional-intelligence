@@ -41,11 +41,13 @@ export default function Home() {
                 </div>
               </div>
               <Image
-                src="/images/hero-image.jpg"
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
                 width={550}
                 height={550}
                 alt="Emotional Intelligence Concept"
                 className="mx-auto aspect-square overflow-hidden rounded-xl object-cover object-center sm:w-full lg:order-last"
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRsdHh4eIR4hHh4mIiAmIR4eHiUmLDI2JR4eKjU9MTU+QUJBIzpMUFVLVFJfTUH/2wBDAR"
               />
             </div>
           </div>
@@ -160,7 +162,7 @@ export default function Home() {
                       level: "Beginner",
                       time: "10 min",
                       progress: 0,
-                      image: "/images/emotion-recognition.jpg",
+                      image: "https://images.unsplash.com/photo-1499557354967-2b2d8910bcca?auto=format&fit=crop&w=800&q=80",
                       link: "/exercises/emotion-recognition",
                     },
                     {
@@ -169,7 +171,7 @@ export default function Home() {
                       level: "Intermediate",
                       time: "15 min",
                       progress: 30,
-                      image: "/images/active-listening.jpg",
+                      image: "https://images.unsplash.com/photo-1516726817505-f5ed825624d8?auto=format&fit=crop&w=800&q=80",
                       link: "/exercises/active-listening",
                     },
                     {
@@ -178,7 +180,7 @@ export default function Home() {
                       level: "Beginner",
                       time: "12 min",
                       progress: 0,
-                      image: "/images/self-awareness.jpg",
+                      image: "https://images.unsplash.com/photo-1544027993-37dbfe43562a?auto=format&fit=crop&w=800&q=80",
                       link: "/exercises/self-awareness",
                     },
                   ].map((exercise, index) => (
@@ -220,7 +222,7 @@ export default function Home() {
                       level: "Intermediate",
                       time: "25 min",
                       progress: 0,
-                      image: "/images/difficult-conversation.jpg",
+                      image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=800&q=80",
                       link: "/simulations/difficult-conversation",
                     },
                     {
@@ -229,7 +231,7 @@ export default function Home() {
                       level: "Advanced",
                       time: "30 min",
                       progress: 15,
-                      image: "/images/conflict-resolution.jpg",
+                      image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80",
                       link: "/simulations/conflict-resolution",
                     },
                     {
@@ -238,7 +240,7 @@ export default function Home() {
                       level: "Intermediate",
                       time: "20 min",
                       progress: 45,
-                      image: "/images/emotional-support.jpg",
+                      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
                       link: "/simulations/emotional-support",
                     },
                   ].map((simulation, index) => (
@@ -296,7 +298,7 @@ export default function Home() {
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
                       <Avatar className="h-10 w-10 border">
-                        <AvatarImage src="/images/testimonial-1.jpg" alt="User" />
+                        <AvatarImage src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="User" />
                         <AvatarFallback>JD</AvatarFallback>
                       </Avatar>
                       <div className="grid gap-1">
@@ -314,7 +316,7 @@ export default function Home() {
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
                       <Avatar className="h-10 w-10 border">
-                        <AvatarImage src="/images/testimonial-2.jpg" alt="User" />
+                        <AvatarImage src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=200&q=80" alt="User" />
                         <AvatarFallback>SJ</AvatarFallback>
                       </Avatar>
                       <div className="grid gap-1">
