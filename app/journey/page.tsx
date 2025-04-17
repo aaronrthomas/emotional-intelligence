@@ -20,7 +20,7 @@ export default function JourneyPage() {
       title: "Welcome to Your Emotional Intelligence Journey",
       description:
         "Emotional intelligence is the ability to understand and manage your emotions, and to recognize and influence the emotions of others. This journey will help you develop these crucial skills.",
-      image: "/images/journey-welcome.jpg",
+      image: "https://images.unsplash.com/photo-1531747056595-07f6cbbe10ad?auto=format&fit=crop&w=800&q=80",
       content: (
         <div className="space-y-4">
           <p>
@@ -51,7 +51,7 @@ export default function JourneyPage() {
       title: "Assess Your Current Skills",
       description:
         "Before we begin, let's understand your current emotional intelligence strengths and areas for growth.",
-      image: "/images/journey-assessment.jpg",
+      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80",
       content: (
         <div className="space-y-4">
           <p>
@@ -109,7 +109,7 @@ export default function JourneyPage() {
       title: "Your Personalized Learning Path",
       description:
         "Based on your assessment, we've created a customized journey to help you develop your emotional intelligence.",
-      image: "/images/journey-path.jpg",
+      image: "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=800&q=80",
       content: (
         <div className="space-y-4">
           <p>
@@ -203,7 +203,7 @@ export default function JourneyPage() {
     {
       title: "Track Your Progress",
       description: "Monitor your growth and celebrate your achievements along the way.",
-      image: "/images/journey-progress.jpg",
+      image: "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=800&q=80",
       content: (
         <div className="space-y-4">
           <p>
@@ -278,7 +278,7 @@ export default function JourneyPage() {
     {
       title: "Ready to Begin Your Journey?",
       description: "You're all set to start developing your emotional intelligence skills.",
-      image: "/images/journey-begin.jpg",
+      image: "https://images.unsplash.com/photo-1552581234-26160f608093?auto=format&fit=crop&w=800&q=80",
       content: (
         <div className="space-y-4">
           <p>
@@ -379,10 +379,12 @@ export default function JourneyPage() {
             <div className="sticky top-24">
               <div className="relative aspect-square overflow-hidden rounded-xl">
                 <Image
-                  src={steps[currentStep].image || "/placeholder.svg"}
+                  src={steps[currentStep].image}
                   alt={steps[currentStep].title}
                   fill
                   className="object-cover"
+                  placeholder="blur"
+                  blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx4eHRsdHh4eIR4hHh4mIiAmIR4eHiUmLDI2JR4eKjU9MTU+QUJBIzpMUFVLVFJfTUH/2wBDAR"
                 />
               </div>
               <div className="mt-4 space-y-2">
